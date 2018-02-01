@@ -1,0 +1,33 @@
+h1{
+  background-color: #f69853;
+  font-family: Didot;
+  text-align: center;
+  font-size: 100px;
+  color: #ffe27f;
+  /* margin: : 10px; */
+}
+
+a{
+  font-family: avenir;
+  color: #ffe27f;
+  font-size: 50px;
+  text-align: center;
+}
+
+.prep{
+  font-family: didot;
+  font-size: 30px;
+  text-align: center;
+  color:#ffe27f;
+  background-color: #f69853;
+  margin: 40px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+h2{
+  font-family: avenir;
+  font-size:24px;
+}
