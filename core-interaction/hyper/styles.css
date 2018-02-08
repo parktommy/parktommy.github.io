@@ -1,0 +1,45 @@
+h1{
+  font-family: Avenir;
+  font-size: 100px;
+  text-align: center;
+  color: white;
+
+}
+h2{
+  font-family: Avenir;
+  font-size: 30px;
+  text-align: center;
+  color:white;
+}
+body{
+  background-color: #e9afb6;
+  background-image: url("giphy.gif");
+  background-repeat: repeat;
+
+}
+img{
+
+}
+a{
+  font-family: avenir;
+  font-size: 24px;
+  margin-left: 45%;
+  list-style-type: none;
+
+}
+ul{
+  list-style-type: none;
+}
+
+p{
+  font-family: avenir;
+  font-size: 12px;
+  padding-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  color:white;
+  }
+
+  div{
+  font-size: 10px;
+  }
