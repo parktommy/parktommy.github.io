@@ -1,0 +1,202 @@
+h1{
+  font-family:Baskerville;
+  text-align: center;
+  font-size: 100px;
+  r
+}
+h2{
+  font-family: Baskerville;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+body{
+  background-color: #F8E489;
+}
+
+img{
+  width: 1800px;
+  position:relative;
+  bottom:250px;
+  right:176px
+}
+p{
+  font-family: Baskerville;
+  font-size: 18px;
+  padding-top:45%;
+
+
+
+}
+div{
+  margin:400px;
+  /* background-color: #DAC876; */
+
+}
+
+/* button{
+  font-family: Baskerville;
+  font-size: 20px;
+  position: relative;
+  bottom: 1500px;
+  left:690px;
+} */
+
+a{
+  font-size: 30px;
+  font-family: Baskerville;
+  position:relative;
+  bottom:1500px;
+  left: 690px;
+}
+
+
+.next{
+  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+
+
+.next-one{
+
+  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;}
+
+.next-two{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-three{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-four{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-five{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-six{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-seven{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-eight{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.next-nine{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.back{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+
+}
+.previous{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+
+.previous1{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous2{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous3{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous4{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous5{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous6{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous7{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous8{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous9{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
+.previous10{  font-size: 20px;
+  font-family: Baskerville;
+  position:relative;
+  top:5px;
+  left:-40px;
+
+}
