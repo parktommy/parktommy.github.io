@@ -1,0 +1,69 @@
+h1{
+  font-family: futura;
+}
+/* div{
+  position: fixed;
+  left:7%;
+  z-index: -1;
+} */
+#akira{
+  position: absolute;
+  top:10%;
+  left:9%;
+  z-index: -1;
+}
+
+
+#supreme1{
+  position: absolute;
+  top:67%;
+  left:9%;
+  z-index: -1;
+}
+
+#supreme2{
+  position: absolute;
+  top:1000px;
+  left:9%;
+  z-index: -1;
+}
+
+
+body{
+  background-image: url("ak.jpg");
+  background-repeat:no-repeat;
+  background-size: auto;
+}
+
+#tv{
+  position: absolute;
+  width: 500px;
+  z-index: -1;
+  left:7%;
+  top:15%;
+}
+
+#tv1{
+  position: absolute;
+  width: 600px;
+  z-index: -1;
+  left: 7%;
+  top:530px;
+}
+
+#tv2{
+  position: absolute;
+  width: 510px;
+  z-index: -1;
+  left: 7%;
+  top:1030px;
+}
+
+
+#remote{
+  position: absolute;
+  width: 100px;
+  height:150px;
+  top:80%;
+  left:60%;
+}

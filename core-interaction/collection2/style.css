@@ -94,6 +94,7 @@ p{
   left: 0;
   right: 0;
   background-color:black;
+  opacity: .5;
   overflow: hidden;
   width: 100%;
   height:0;
@@ -226,7 +227,7 @@ p{
 
 
 
-
+/* nike */
 .three {
   position: relative;
   width: 25%;
@@ -269,6 +270,53 @@ p{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.button3 {
+    position: relative;
+    background-color: black;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    top:35%;
+    left:20%;
+}
+
+.button3:after {
+    content: "";
+    background:white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    top:35%;
+    left:20%;
+}
+
+.button3:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -322,61 +370,222 @@ p{
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-
-
-
-
-
-
-/* drop down */
-
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    font-size: 16px;
-    border: none;
-    position: absolute;
-    float:right;
-    left:1250px;
-    top:9%;
-}
-
-.dropdown {
+.button4 {
     position: relative;
-    display: inline-block;
-    position: absolute;
-    float:right;
-    top:8%;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    left:1200px;
-    top:48px;
-
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-family: helvetica;
-
-}
-
-.dropdown-content a:hover {background-color: black}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
     background-color: black;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    top:50%;
+    left:34%;
+}
+
+.button4:after {
+    content: "";
+    background:white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    top:50%;
+    left:34%;
+}
+
+.button4:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+
+
+.five {
+  position: relative;
+  width: 25%;
+  left:3.5%;
+  float:left;
+
+  bottom:10%;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  top:300px;
+
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .9s ease;
+
+
+}
+
+.five:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family:helvetica;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.button5 {
+    position: relative;
+    background-color: black;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    top:40%;
+    left:20%;
+}
+
+.button5:after {
+    content: "";
+    background:white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    top:40%;
+    left:20%;
+}
+
+.button5:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+.six {
+  position: relative;
+  width: 25%;
+  left:3.5%;
+  float:left;
+
+
+
+
+
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:black;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .9s ease;
+
+}
+
+.six:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  font-family:helvetica;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.button6 {
+    position: relative;
+    background-color: black;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    top:50%;
+    left:22%;
+}
+
+.button6:after {
+    content: "";
+    background:white;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+    top:50%;
+    left:22%;
+}
+
+.button6:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
 }
