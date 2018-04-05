@@ -1,0 +1,394 @@
+
+
+#bars {
+    height: 30px;
+    left: 50%;
+    margin: -30px 0 0 -20px;
+    position: absolute;
+    bottom: 100px;
+    width: 40px;
+    left:430px;
+}
+
+.bar {
+   background: #666;
+    bottom: 1px;
+    height: 3px;
+    position: absolute;
+    bottom: 580px;
+    left:-100px;
+    width: 3px;
+    animation: sound 0ms -800ms linear infinite alternate;
+}
+
+@keyframes sound {
+    0% {
+       opacity: .35;
+        height: 3px;
+    }
+    100% {
+        opacity: 1;
+        height: 28px;
+    }
+}
+
+.bar:nth-child(1)  { left: 1px; animation-duration: 474ms; }
+.bar:nth-child(2)  { left: 5px; animation-duration: 433ms; }
+.bar:nth-child(3)  { left: 9px; animation-duration: 407ms; }
+.bar:nth-child(4)  { left: 13px; animation-duration: 458ms; }
+.bar:nth-child(5)  { left: 17px; animation-duration: 400ms; }
+.bar:nth-child(6)  { left: 21px; animation-duration: 427ms; }
+.bar:nth-child(7)  { left: 25px; animation-duration: 441ms; }
+.bar:nth-child(8)  { left: 29px; animation-duration: 419ms; }
+.bar:nth-child(9)  { left: 33px; animation-duration: 487ms; }
+.bar:nth-child(10) { left: 37px; animation-duration: 442ms; }
+
+
+
+
+
+.info{
+  display: inline-block; width:40vw;
+  margin-top: 5em;
+
+
+
+
+}
+
+.name{
+display: inline-block; width:60vw;
+float: right;
+float: right;
+position: absolute;
+
+
+
+}
+
+#header{
+  width: auto;
+  white-space: nowrap;
+  margin-bottom: 80px;
+}
+
+
+h1{
+  font-family: helvetica;
+  font-size: 60px;
+  margin-left: 100px;
+  color: black;
+  position: relative;
+  top:20px;
+  letter-spacing: 7px;
+  margin-top: 50px;
+
+
+}
+
+h2{
+  font-family: helvetica;
+  font-size: 10px;
+  margin-left: 100px;
+  color: black;
+  font-weight: lighter;
+}
+
+body{
+  background-color: #f9f9f9;
+}
+
+
+/* /bach */
+p{
+  font-family: courier;
+  font-size: 8px;
+  color:black;
+
+}
+/* #bach{
+display: inline-block;
+left:750px;
+top:365px;
+} */
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: courier;
+    font-size: 8px;
+    color:black;
+    position: relative;
+    bottom: 40px;
+    right:10px;
+}
+
+.btn:hover {background: #eee;}
+
+
+h3{
+font-family: helvetica;
+font-size: 22px;
+color: black;
+margin-left: 100px;
+}
+h4{
+  font-family: helvetica;
+  font-size: 22px;
+  color: black;
+  margin-top: -20px;
+  margin-left: 100px;
+}
+h5{
+  font-family: helvetica;
+  font-size: 9px;
+  color: black;
+  margin-top:-27px;
+  margin-right: 220px;
+  margin-left: 100px;
+}
+h6{
+  font-family: helvetica;
+  font-size: 22px;
+  color: black;
+  margin-top: -14px;
+  margin-left: 100px;
+}
+
+.buttons{
+  margin-left: 7.3em;
+  margin-bottom: 1em;
+
+}
+
+
+button{
+
+
+    background-color: inherit;
+    font-size: 8px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    cursor:pointer;
+    padding: 10px;
+
+}
+button:hover {background: #eee;}
+
+.buttons2{
+  position: relative;
+  top:8em;
+  margin-left: 7.3em;
+  margin-top: 1em;
+}
+
+.buttons3{
+  position: relative;
+  top:18em;
+  margin-left: 7.3em;
+  margin-top: 1em;
+}
+
+.buttons4{
+  position: relative;
+  top:28em;
+  margin-left: 7.3em;
+  margin-top: 1em;
+}
+.buttons5{
+  position: relative;
+  top:39em;
+  margin-left: 7.3em;
+  margin-top: 1em;
+}
+#sebastian{
+  margin-bottom: 25em;
+}
+}
+
+.first{
+  width:60%
+}
+
+/* bach */
+
+.div1{
+  margin-left: 100px;
+  margin-bottom: 147px;
+  text-transform: uppercase;
+  font: bold 7vmax/1 sans-serif;
+
+}
+
+
+
+body .box {
+
+  margin-left: 100px;
+  margin-bottom: 147px;
+  text-transform: uppercase;
+  font: bold 15vmax/1 sans-serif;
+
+
+}
+body .box.img {
+
+
+  display: inline-block;width: 100%;
+
+}
+
+.box.img.active{
+  background-image: url(flower.gif);
+  background-size: 15%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.box.img.thunder{
+  background-image: url(thunder.gif);
+  background-size: 33%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.box.img.air{
+  background-image: url(cloud.gif);
+  background-size: 60%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* mozart */
+
+body .mozart {
+  position: relative;
+  top:10vw;
+  margin-left: 100px;
+  margin-bottom: 135px;
+  text-transform: uppercase;
+  font: bold 11vmax/1 sans-serif;
+
+}
+body .mozart {
+  display: inline-block;width: 80%;
+}
+.mozart.active{
+  background-image: url(spike.gif);
+  background-size: 20%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mozart.fall{
+  background-image: url(fall.gif);
+  background-size: 35%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.mozart.winter{
+  background-image: url(snow.gif);
+  background-size: 35%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* vivaldi */
+body .vivaldi {
+  position: relative;
+  top:21vw;
+  margin-left: 100px;
+  margin-bottom: 147px;
+  text-transform: uppercase;
+  font: bold 12vmax/1 sans-serif;
+
+}
+body .vivaldi {
+  display: inline-block;width: 80%;
+}
+
+.vivaldi.spring{
+  background-image: url(cherry.gif);
+  background-size: 38%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.vivaldi.summer{
+  background-image: url(desert.gif);
+  background-size: 40%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.vivaldi.winteractive{
+  background-image: url(blizzard.gif);
+  background-size: 40%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+/* beethoven */
+body .beethoven {
+  position: relative;
+  top:33vw;
+  margin-left: 100px;
+  margin-bottom: 147px;
+  text-transform: uppercase;
+  font: bold 7.5vmax/1 sans-serif;
+
+}
+body .beethoven {
+  display: inline-block;width: 80%;
+}
+.beethoven.elise{
+  background-image: url(bloom.gif);
+  background-size: 25%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.beethoven.symphony5{
+  background-image: url(storm.gif);
+  background-size: 35%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.beethoven.joy{
+  background-image: url(cloud2.gif);
+  background-size: 35%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+/* chopin */
+body .chopin {
+  position: relative;
+  top: 45vw;
+  margin-left: 100px;
+  margin-bottom: 147px;
+  text-transform: uppercase;
+  font: bold 12vmax/1 sans-serif;
+
+}
+body .chopin {
+  display: inline-block;width: 80%;
+}
+.chopin.nocturn{
+  background-image: url(night.gif);
+  background-size: 40%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.chopin.cloud3{
+  background-image: url(rain.gif);
+  background-size: 40%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.chopin.rain{
+  background-image: url(cloud3.gif);
+  background-size: 40%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
