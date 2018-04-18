@@ -1,0 +1,61 @@
+img{
+  width:300vh;
+
+}
+
+h1{
+  font-family: Baskerville;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  left:75%;
+  top:27%;
+}
+
+h2{
+  font-family: avenir;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  left:77%;
+  top:37%;
+
+}
+
+.btn {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 3px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  position: absolute;
+  bottom:43.5vh;
+  left:75.6%;
+  transform: rotate(90deg);
+}
+.btn:hover {opacity: 1}
+
+
+
+
+.btn1 {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 3px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  position: absolute;
+  bottom:33vh;
+  left:83%;
+  transform: rotate(95deg);
+}
+.btn1:hover {opacity: 1}
