@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Site Specific Website </title>
+    <link rel = "stylesheet"
+        href="morning.css">
+  </head>
+<body>
+
+  <audio controls autoplay id="morning">
+    <source src="morning.mp3" type="audio/mpeg">
+  </audio>
+
+  <link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+    </head>
+
+  <div class="container">
+    <div class="slider">
+    <input value=5 type = "range" min="5" max="20" oninput="changeSpeed(value)"/>
+
+    </div>
+    </div>
+
+
+    <div class="container">
+      <div class="slider">
+      <input value=1 type = "range" min="1" max="8" oninput="changeColor(value)"/>
+
+      </div>
+      </div>
+
+
+
+<script>
+
+
+
+
+  function changeSpeed(value){
+    console.log(value);
+    document.body.style.animation= "Gradient "+ value +"s ease infinite"
+  }
+
+  function changeColor(value){
+    console.log(value);
+    var color="white"
+    if (value ==1){
+      color="#8bcad9";
+    }
+    if (value ==2){
+      color="#8ba3d9";
+    }
+    if (value ==3){
+      color="#8bd9c1";
+    }
+    if (value ==4){
+      color="#51b0c6";
+    }
+    if (value ==5){
+      color="#c5e4ec";
+    }
+    if (value ==6){
+      color="#b1dce6";
+    }
+    if (value ==7){
+      color="#78c1d3";
+    }
+    if (value ==8){
+      color="#92dec9";
+    }
+
+    document.body.style.backgroundImage= "linear-gradient(-45deg, #EE7752, #E73C7E,"+ color +", #23A6D5, #23D5AB)"
+  }
+
+
+</script>
