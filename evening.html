@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Site Specific Website </title>
+    <link rel = "stylesheet"
+        href="evening.css">
+  </head>
+<body>
+
+  <audio controls autoplay id="night">
+    <source src="night.mp3" type="audio/mpeg">
+  </audio>
+
+  <link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
+    </head>
+
+  <div class="container">
+    <div class="slider">
+    <input value=5 type = "range" min="5" max="20" oninput="changeSpeed(value)"/>
+
+    </div>
+    </div>
+
+
+    <div class="container">
+      <div class="slider">
+      <input value=1 type = "range" min="1" max="8" oninput="changeColor(value)"/>
+
+      </div>
+      </div>
+
+
+
+<script>
+function changeSpeed(value){
+    console.log(value);
+    document.body.style.animation= "Gradient "+ value +"s ease infinite"
+  }
+
+  function changeColor(value){
+    console.log(value);
+    var color="white"
+    if (value ==1){
+      color="#dbedff";
+    }
+    if (value ==2){
+      color="#ffdbed";
+    }
+    if (value ==3){
+      color="#edffdb";
+    }
+    if (value ==4){
+      color="#dbdbff";
+    }
+    if (value ==5){
+      color="#dbffff";
+    }
+    if (value ==6){
+      color="#ffeddb";
+    }
+    if (value ==7){
+      color="#ffdbdb";
+    }
+    if (value ==8){
+      color="#dbffed";
+    }
+
+    document.body.style.backgroundImage= "linear-gradient(-45deg, #EE7752, #E73C7E,"+ color +", #23A6D5, #23D5AB)"
+  }
+
+
+</script>
+
+<script type="text/javascript" src="library.js"></script>
+<script type="text/javascript">
+    var currentPage = 1;
+    var totalPages = 3;
+
+    var swipeZone = document.querySelector('.swipe');
+
+    swipedetect(swipeZone, function(direction){
+      // direction contains either "none", "left", "right", "top", or "down"
+      console.log('swiped ' + direction);
+
+      if (direction == 'left') {
+        if (currentPage <= 1) {
+          pageNumber = 1;
+        } else {
+          currentPage = currentPage - 1;
+        }
+
+        console.log(currentPage);
+        showPage('page-' + currentPage);
+      }
+
+      if (direction == 'right') {
+        if (currentPage >= totalPages) {
+          currentPage = totalPages;
+        } else {
+          currentPage = currentPage + 1;
+        }
+
+        console.log(currentPage);
+        showPage('page-' + currentPage);
+      }
+    });
+
+    var navButton1 = document.querySelector('.nav-button.page-1');
+    var navButton2 = document.querySelector('.nav-button.page-2');
+    var navButton3 = document.querySelector('.nav-button.page-3');
+
+    navButton1.addEventListener('click', function() {
+      showPage('page-1');
+    })
+
+    navButton2.addEventListener('click', function() {
+      showPage('page-2');
+    })
+
+    navButton3.addEventListener('click', function() {
+      showPage('page-3');
+    })
+  </script>

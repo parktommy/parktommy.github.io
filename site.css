@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FAFAFA;
+}
+
+button {
+  padding: 90px 160px;
+  background: none;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: thin;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-size: 30px;
+}
+button:after, button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #000;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+button:after {
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
+}
+button:before {
+  -webkit-transform: translate(-3px, -3px);
+          transform: translate(-3px, -3px);
+}
+button:hover:after, button:hover:before {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+.popup{
+  background-color: black;
+  animation: popup 7s 1;
+  opacity: 0;
+  z-index: 3;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  position: absolute;
+  width: 100px;
+
+}
+
+@keyframes popup {
+
+  0%{
+    opacity: 1;}
+
+  100%{
+    opacity: 0;
+  }
+
+}
