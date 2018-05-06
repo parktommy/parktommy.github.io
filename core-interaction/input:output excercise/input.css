@@ -1,0 +1,31 @@
+body {
+  /* feel free to change height */
+  height: 5000px;
+  background: -webkit-gradient(
+    linear,
+    left top, left bottom,
+    from(white),
+    to(black)
+  );
+  background: linear-gradient(
+    to bottom,
+    white,
+    black
+  );
+}
+
+h1{
+  font-family: helvetica;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+#star-svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+}
