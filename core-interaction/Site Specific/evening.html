@@ -7,15 +7,26 @@
   </head>
 <body>
 
-  <audio controls autoplay id="night">
+  <!-- <audio controls autoplay id="night">
     <source src="night.mp3" type="audio/mpeg">
-  </audio>
+  </audio> -->
 
   <link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
-    </head>
+
+  <audio id="myAudio">
+
+  <source src="night.mp3" type="audio/mpeg">
+
+  </audio>
+
+
+
+<button class="btn" onclick="playAudio()" type="button">Play Audio</button>
+
 
   <div class="container">
     <div class="slider">
+      <h2> Speed</h2>
     <input value=5 type = "range" min="5" max="20" oninput="changeSpeed(value)"/>
 
     </div>
@@ -24,6 +35,7 @@
 
     <div class="container">
       <div class="slider">
+        <h3> Color</h3>
       <input value=1 type = "range" min="1" max="8" oninput="changeColor(value)"/>
 
       </div>
@@ -32,6 +44,15 @@
 
 
 <script>
+
+var x = document.getElementById("myAudio");
+
+function playAudio() {
+    x.play();
+}
+
+
+
 function changeSpeed(value){
     console.log(value);
     document.body.style.animation= "Gradient "+ value +"s ease infinite"
@@ -70,54 +91,3 @@ function changeSpeed(value){
 
 
 </script>
-
-<script type="text/javascript" src="library.js"></script>
-<script type="text/javascript">
-    var currentPage = 1;
-    var totalPages = 3;
-
-    var swipeZone = document.querySelector('.swipe');
-
-    swipedetect(swipeZone, function(direction){
-      // direction contains either "none", "left", "right", "top", or "down"
-      console.log('swiped ' + direction);
-
-      if (direction == 'left') {
-        if (currentPage <= 1) {
-          pageNumber = 1;
-        } else {
-          currentPage = currentPage - 1;
-        }
-
-        console.log(currentPage);
-        showPage('page-' + currentPage);
-      }
-
-      if (direction == 'right') {
-        if (currentPage >= totalPages) {
-          currentPage = totalPages;
-        } else {
-          currentPage = currentPage + 1;
-        }
-
-        console.log(currentPage);
-        showPage('page-' + currentPage);
-      }
-    });
-
-    var navButton1 = document.querySelector('.nav-button.page-1');
-    var navButton2 = document.querySelector('.nav-button.page-2');
-    var navButton3 = document.querySelector('.nav-button.page-3');
-
-    navButton1.addEventListener('click', function() {
-      showPage('page-1');
-    })
-
-    navButton2.addEventListener('click', function() {
-      showPage('page-2');
-    })
-
-    navButton3.addEventListener('click', function() {
-      showPage('page-3');
-    })
-  </script>

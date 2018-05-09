@@ -7,15 +7,27 @@
   </head>
 <body>
 
-  <audio controls autoplay id="morning">
+  <!-- <audio controls autoplay id="morning">
     <source src="morning.mp3" type="audio/mpeg">
-  </audio>
+  </audio> -->
 
   <link href='https://fonts.googleapis.com/css?family=Quantico' rel='stylesheet' type='text/css'>
-    </head>
+
+  <audio id="myAudio">
+
+  <source src="morning.mp3" type="audio/mpeg">
+
+  </audio>
+
+
+
+<button class="btn" onclick="playAudio()" type="button">Play Audio</button>
+
+
 
   <div class="container">
     <div class="slider">
+      <h2> Speed</h2>
     <input value=5 type = "range" min="5" max="20" oninput="changeSpeed(value)"/>
 
     </div>
@@ -24,6 +36,7 @@
 
     <div class="container">
       <div class="slider">
+        <h3> Color</h3>
       <input value=1 type = "range" min="1" max="8" oninput="changeColor(value)"/>
 
       </div>
@@ -33,7 +46,11 @@
 
 <script>
 
+var x = document.getElementById("myAudio");
 
+function playAudio() {
+    x.play();
+}
 
 
   function changeSpeed(value){
